@@ -83,4 +83,4 @@ npm run dev
 
 ## 🌐 Live Demo
 
-Check out the live app here: https://interviewprepportal
+Check out the live app here: https://ai-interview-prep-rahg.vercel.app/
