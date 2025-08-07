@@ -1,4 +1,4 @@
-# InterviewPrepPortal
+# AI Based Interview PrepPortal
 
 A personalized AI-powered platform to prepare for technical interviews by generating dynamic questions, answers, and explanations based on user roles and experience levels.
 
@@ -50,7 +50,7 @@ A personalized AI-powered platform to prepare for technical interviews by genera
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/InterviewPrepPortal.git
+git clone https://github.com/Vishalsahu1510/Ai-Interview-Prep.git
 cd InterviewPrepPortal
 ```
 
@@ -68,6 +68,9 @@ Create a `.env` file in the backend directory with the following:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 PORT=5000
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
 ```
 
 ### 3. Setup Frontend
@@ -75,7 +78,7 @@ PORT=5000
 ```bash
 cd ../frontend/InterviewPrepPortal
 npm install
-npm start
+npm run dev
 ```
 
 ## 🌐 Live Demo
